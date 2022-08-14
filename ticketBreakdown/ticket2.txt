@@ -1,0 +1,22 @@
+create function to enter user generated IDs for each agent
+create bulkUpload from facilities to give new Agent ID corresponding to existing agentIDs
+
+Title - Api to bulk insert data for new FacilitiesAgentId table
+
+Acceptce Criteria
+- Api should take an array as input
+- the input format should be 
+input: {
+    agentData: [{
+        id,
+        agentName,
+        newAgentId
+    }]
+}
+
+Time Effort
+Requires 1-2 days of effort by a junior developer
+Requires 1 day of effort by a senior developer 
+
+Implementation details
+1. Name the api addUpdateAgentDetails

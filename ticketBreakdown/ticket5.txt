@@ -1,0 +1,14 @@
+Title - Frontend app - Api integration for submit form
+
+Acceptce Criteria
+- Submit button should be enabled
+- show success message after successfull submission
+- or show error message after error
+
+Time Effort
+Requires 3-4 days of effort by a junior developer
+Requires 1-2 days of effort by a senior developer 
+
+Implementation details
+1. Use the addUpdateAgentDetails api(from ticket 2)
+2. show success message after successfully submitting the data

@@ -1,0 +1,13 @@
+Title - Frontend app to upload new AgentIDs for Facilities Department
+
+Acceptce Criteria
+- Create a basic 1 page frontend application
+
+Time Effort
+Requires 1-2 days of effort by a junior developer
+Requires 1 day of effort by a senior developer 
+
+Implementation details
+1. Create an aplication using boiler plate
+2. It can be a simple serverside application with 1 page
+3. It should have 1 route /upload

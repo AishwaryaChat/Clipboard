@@ -1,0 +1,22 @@
+Title - Api to get Agents data
+Acceptce Criteria
+- The api should give an array of agent records  as output
+- The output should contain records for all the agents in the database
+- The output should be in format 
+{
+    data: {
+        agentData: [{
+            agentId: 1,
+            agentName: "John Doe
+        }]
+    }
+}
+
+Time Effort
+Requires 3-4 days of effort by a junior developer
+Requires 1-2 days of effort by a senior developer 
+
+Implementation details
+1. Write a function to fetch agents Data from DB
+2. Data should include Agent ID and Agent Name
+4. name the api getAgentDetails

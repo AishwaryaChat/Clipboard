@@ -1,0 +1,16 @@
+Title - Frontend app - create form to take input from Facitity team
+
+Acceptce Criteria
+- Create form to take input from facility team
+- Form should show list of Agent Names 
+- Form should take Agent ID input for each agent
+- Form should have a submit button
+
+Time Effort
+Requires 1-2 days of effort by a junior developer
+Requires 1 day of effort by a senior developer 
+
+Implementation details
+1. Use the getAgentDetails api(from ticket 1)
+2. show list of agents using simple map function
+3. create text box for each agent to collect agent id
