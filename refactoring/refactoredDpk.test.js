@@ -1,7 +1,7 @@
-const { deterministicPartitionKey } = require("./dpk");
+const { deterministicPartitionKey } = require("./refactoredDpk");
 const crypto = require("crypto");
 
-describe("deterministicPartitionKey", () => {
+describe("Refactored deterministicPartitionKey", () => {
   it("Returns the literal '0' when given no input", () => {
     const trivialKey = deterministicPartitionKey();
     expect(trivialKey).toBe("0");
