@@ -9,3 +9,9 @@ You've been asked to refactor the function `deterministicPartitionKey` in [`dpk.
 You will be graded on the exhaustiveness and quality of your unit tests, the depth of your refactor, and the level of insight into your thought process provided by the written explanation.
 
 ## Your Explanation Here
+
+1. Created function createHash, so that we can reuse it at multiple places
+2. In line 16, I have simplified nested if else statement using ternary operator
+3. We don't need the data variable, since we are handling that in line 6 itself
+4. Since we already have assigned a value to candidate variable in line 6, we dont need if(candidate) condition, in line 17(of original code)
+5. In line 16 of refactored code we still need the condition, because return value always have to be string
